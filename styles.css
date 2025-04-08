@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to top, #87cefa, #ffffff);
+    overflow: hidden;
+    cursor: none;
+    position: relative;
+  }
+  
+  .pelota {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.05s linear;
+    pointer-events: none;
+  }
+  
+  .pelotita {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    transition: top 0.5s ease-in;
+  }
+  
